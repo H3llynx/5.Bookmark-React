@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-rubik: 'Rubik', sans-serif;
+    --spacing: 1rem;
+    --color-*: initial;
+    --color-white: #fff;
+    --color-blue: #5265E1;
+    --color-blue-dark: #242A45;
+    --color-blue-menu: rgb(36, 42, 69, 0.95);
+    --color-red: #fa5959;
+    --color-grey: #a7a7ac;
+    --color-grey-btn: #f7f7f7;
+    --color-grey-md: #848486;
+    --color-grey-dark: #535260;
+    --color-border: rgba(255, 255, 255, 0.25);
+    --color-separators: #d9d9d9;
+    --animate-fadeIn: fadeIn 0.6s forwards;
+    --animate-tabs: labelBorder 0.8s forwards;
+    --animate-tabs-45: labelBorderShort 0.8s forwards;
+    --animate-tab-content: fadeIn 1.6s forwards;
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes labelBorder {
+        from {
+            opacity: 0;
+            width: 0;
+        }
+
+        to {
+            opacity: 1;
+            width: 100%;
+        }
+    }
+
+    @keyframes labelBorderShort {
+        from {
+            opacity: 0;
+            width: 0;
+        }
+
+        to {
+            opacity: 1;
+            width: 45%;
+        }
+    }
+}
+
+body {
+    font-family: var(--font-rubik);
+    background-color: var(--color-white);
+    color: var(--color-grey);
+}
