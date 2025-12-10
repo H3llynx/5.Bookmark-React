@@ -3,7 +3,7 @@ import { Link } from "../atoms/Link"
 
 export function NavBar() {
     return (
-        <nav className="flex gap-3 items-center bg-red">
+        <nav className="flex gap-3 items-center">
             <Link text="Features" link="#" />
             <Link text="Pricing" link="#" />
             <Link text="contact" link="#" />

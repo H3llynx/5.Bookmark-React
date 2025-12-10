@@ -1,10 +1,10 @@
-import { Link } from "../components/atoms/Link"
+import { Header } from "../components/organisms/Header"
 
 export function HomePage() {
 
     return (
         <>
-        <Link text="custom text" link="#"/>
+            <Header />
         </>
     )
 }
