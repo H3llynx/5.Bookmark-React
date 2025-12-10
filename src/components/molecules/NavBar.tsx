@@ -18,7 +18,8 @@ export function NavBar() {
         group-has-checked:block
         group-has-checked:w-full
         group-has-checked:text-white
-        group-has-checked:my-2">
+        group-has-checked:my-2
+        md:text-[12px]">
                 <li><Link text="Features" link="#" /></li>
                 <li><Link text="Pricing" link="#" /></li>
                 <li><Link text="contact" link="#" /></li>
