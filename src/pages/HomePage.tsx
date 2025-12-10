@@ -1,6 +1,10 @@
+import { Link } from "../components/atoms/Link"
+
 export function HomePage() {
 
     return (
-        <p>This is a test</p>
+        <>
+        <Link text="custom text" link="#"/>
+        </>
     )
 }
