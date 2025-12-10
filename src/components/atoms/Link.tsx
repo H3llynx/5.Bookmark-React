@@ -13,7 +13,8 @@ export function Link({ text, link }: LinkProps) {
         font-medium
         text-grey-dark
         transition duration-400
-        md:hover:text-red" href={link} tabIndex={0}>{text}
+        md:hover:text-red"
+      href={link} tabIndex={0}>{text}
     </a>
   )
 }
