@@ -68,6 +68,10 @@
     @apply tracking-[1.5px] leading-none gap-3 md:flex md:items-center md:text-[12px]
 }
 
+.blob {
+    @apply absolute z-[-1] bg-blue w-[82%] aspect-16/10
+}
+
 body {
     font-family: var(--font-rubik);
     background-color: var(--color-white);
