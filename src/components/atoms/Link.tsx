@@ -8,11 +8,7 @@ export function Link({ text, link }: LinkProps) {
     <a className="
         uppercase
         text-center
-        text-grey-dark
-        tracking-[2px]
-        transition duration-400
-        md:hover:text-red
-        md:font-medium
+        hover-red
         group-has-checked: block
         group-has-checked:w-full
         group-has-checked:text-white 

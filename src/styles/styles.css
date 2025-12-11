@@ -56,11 +56,22 @@
     }
 }
 
+.custom-width {
+    @apply w-[80vw] md:w-[77vw] m-auto;
+}
+
+.hover-red {
+    @apply transition duration-400 md:hover:text-red
+}
+
+.navbar-ul {
+    @apply tracking-[1.5px] leading-none gap-3 md:flex md:items-center md:text-[12px]
+}
+
 body {
     font-family: var(--font-rubik);
     background-color: var(--color-white);
     color: var(--color-grey);
-    width: 100vw;
     display: flex;
     justify-content: center;
 }
