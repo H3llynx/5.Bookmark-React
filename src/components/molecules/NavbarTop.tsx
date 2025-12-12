@@ -29,7 +29,7 @@ export function NavbarTop() {
                 <li><Link text="Features" link="#" /></li>
                 <li><Link text="Pricing" link="#" /></li>
                 <li><Link text="contact" link="#" /></li>
-                <li><Button text="Login" color="red" /></li>
+                <li><Button text="Login" color="redNav" /></li>
             </ul>
 
             <SocialMedia location="top" />
