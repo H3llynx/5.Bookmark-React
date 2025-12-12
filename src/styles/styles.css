@@ -58,7 +58,7 @@
 
 @layer components {
     .custom-width {
-        @apply w-[77vw] m-auto;
+        @apply w-[80vw] md:w-[77vw] m-auto;
     }
 
     .hover-red {
