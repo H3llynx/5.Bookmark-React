@@ -1,3 +1,4 @@
+import { CardSection } from "../components/organisms/CardSection"
 import { FaqSection } from "../components/organisms/FaqSection"
 import { Footer } from "../components/organisms/Footer"
 import { Header } from "../components/organisms/Header"
@@ -10,6 +11,7 @@ export function HomePage() {
         <>
             <Header />
             <HeroSection />
+            <CardSection />
             <FaqSection />
             <NewsletterSection />
             <Footer />
