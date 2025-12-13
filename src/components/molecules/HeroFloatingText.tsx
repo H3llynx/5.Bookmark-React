@@ -7,7 +7,7 @@ export function HeroFloatingText() {
             <p className="md:text-left">A clean and simple interface to organize your favourite websites. Open a new browser
                 tab and see your sites load instantly. Try it for free.</p>
             <div className="flex gap-[1.2rem] mt-2 justify-center md:justify-start text-sm">
-                <Button text="Get it on Chrome" color="blue" />
+                <Button text="Get it on Chrome" color="blueHero" />
                 <Button text="Get it on Firefox" color="grey" />
             </div>
         </div>
