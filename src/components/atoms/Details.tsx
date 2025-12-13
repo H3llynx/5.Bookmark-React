@@ -1,7 +1,7 @@
 export function Details({ title, p }: { title: string, p: string }) {
 
     return (
-        <details className="group m-auto max-w-[550px] py-[1.35rem] border-b border-separators">
+        <details className="group py-[1.35rem] border-b border-separators">
             <summary
                 className="flex justify-between items-center cursor-pointer text-[clamp(1rem,2vw,1.15rem)] text-grey-dark transition duration-400 md:hover:text-red">
                 {title}
