@@ -5,6 +5,6 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: 'Bookmark-React',
+  base: '/5.Bookmark-React/',
 
 })
