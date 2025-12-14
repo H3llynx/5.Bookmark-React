@@ -1,13 +1,17 @@
+import type { Ref } from 'react';
+
 interface TabButtonProps {
     text: string;
+    ref: Ref<HTMLButtonElement>;
     disabled?: boolean;
     onClick?: () => void;
 }
 
-export function TabButton({ text, disabled, onClick }: TabButtonProps) {
+export function TabButton({ text, ref, disabled, onClick }: TabButtonProps) {
     return (
         <button
             tabIndex={0}
+            ref={ref}
             onClick={onClick}
             disabled={disabled}
             className="relative w-full py-[1rem] text-grey-md transition duration-1200 text-base cursor-pointer
