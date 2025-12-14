@@ -7,6 +7,7 @@ interface TabButtonProps {
 export function TabButton({ text, disabled, onClick }: TabButtonProps) {
     return (
         <button
+            tabIndex={0}
             onClick={onClick}
             disabled={disabled}
             className="relative py-[1rem] px-[3rem] text-grey-md transition duration-1200 text-base cursor-pointer
