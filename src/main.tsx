@@ -6,8 +6,8 @@ import './styles/styles.css'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-    <App />
+    <BrowserRouter basename="/5.Bookmark-React">
+      <App />
     </BrowserRouter>
   </StrictMode>,
 )
