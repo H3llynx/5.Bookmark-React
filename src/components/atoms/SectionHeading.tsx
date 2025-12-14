@@ -1,7 +1,12 @@
-export function SectionHeading({ text, color }: { text: string, color: "dark" | "light" }) {
+interface SectionHeadingProps {
+    text: string,
+    color: "dark" | "light"
+}
+
+export function SectionHeading({ text, color }: SectionHeadingProps) {
     const variant = {
-        dark: "my-1.5 text-blue-dark text-center",
-        light: "text-white w-[80vw] text-center m-auto md:max-w-[30vw] mt-0.5 mb-2 md:my-[2.3rem]"
+        dark: "my-1.5 text-blue-dark",
+        light: "text-white w-[80vw] m-auto md:max-w-[30vw] mt-0.5 mb-2 md:my-[2.3rem]"
     }
     return (
         <h2 className={variant[color]}>{text}
