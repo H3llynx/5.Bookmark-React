@@ -4,14 +4,14 @@ import LogoFirefox from "../../assets/images/logo-firefox.svg"
 import LogoOpera from "../../assets/images/logo-opera.svg"
 import { Button } from "../atoms/Button"
 
-export function Card({ extension, name, version, className }: { extension: "chrome" | "firefox" | "opera", name: string, version: number, className?: string }) {
+export function Card({ extension, name, version, margin }: { extension: "chrome" | "firefox" | "opera", name: string, version: number, margin?: string }) {
     const variant = {
         chrome: LogoChrome,
         firefox: LogoFirefox,
         opera: LogoOpera
     }
     return (
-        <div className={`card ${className || ""}`}>
+        <div className={`card ${margin}`}>
             <img loading="lazy" src={variant[extension]} className="mt-auto" alt="" />
             <h3>Add to {name}</h3>
             <p className="text-[0.9rem]">Minimum version {version}</p>

@@ -9,8 +9,8 @@ export function CardSection() {
                 you've got a favourite you'd like us to prioritize.</p>
             <div className="pt-3 p-2 flex justify-center items-start gap-3.5 flex-wrap lg:flex-nowrap sm:gap-2">
                 <Card extension="chrome" name="Chrome" version={62} />
-                <Card extension="firefox" name="Firefox" version={55} className="lg:mt-2" />
-                <Card extension="opera" name="Opera" version={46} className="lg:mt-4" />
+                <Card extension="firefox" name="Firefox" version={55} margin="lg:mt-2" />
+                <Card extension="opera" name="Opera" version={46} margin="lg:mt-4" />
             </div>
         </section>
     )
