@@ -13,7 +13,7 @@ export function HomePage() {
             <HeroSection />
             <CardSection />
             <FaqSection />
-            <NewsletterSection />
+            <NewsletterSection id="newsletter" />
             <Footer />
         </>
     )
