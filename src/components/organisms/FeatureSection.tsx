@@ -12,7 +12,7 @@ export function FeatureSection() {
             <Blob location="features" />
             <SectionHeading color="dark" text="Features" />
             <p className="custom-width m-auto text-center lg:max-w-[40vw]">Our aim is to make it quick and easy for you to access between your devices so you can access them on the go.</p>
-            <div className="flex flex-wrap justify-center pt-3" role="tablist" aria-label="Bookmark features">
+            <div className="flex flex-wrap justify-center w-[80vw] m-auto mt-3 border-separators border-t-1 md:border-none md:w-auto" role="tablist" aria-label="Bookmark features">
                 <TabButton text="Simple Bookmarking" disabled={tab === "tab1"} onClick={() => setTab("tab1")} />
                 <TabButton text="Speedy Searching" disabled={tab === "tab2"} onClick={() => setTab("tab2")} />
                 <TabButton text="Speedy Searching" disabled={tab === "tab3"} onClick={() => setTab("tab3")} />

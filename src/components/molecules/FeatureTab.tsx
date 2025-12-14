@@ -18,15 +18,15 @@ export function FeatureTab({ title, text, tab }: FeatureTabProps) {
         tab3: FeatureImg3
     }
     return (
-        <article className="relative md:text-left w-full flex flex-col-reverse md:flex-row-reverse gap-3 md:gap-2">
+        <article className="mt-4 md:text-left w-full flex flex-col-reverse md:flex-row-reverse gap-3 md:gap-2 md:mt-0">
             <div className="w-[80vw] m-auto animate-tab-content md:w-[45%] md:pr-[10vw] md:pl-[3vw]">
                 <SectionHeading color="dark" text={title} />
                 <p className="mb-2">{text}</p>
-                <Button color="blueSections" text="More info" />
+                <Button color="blueFeatures" text="More info" />
             </div>
             <div className="w-[80vw] m-auto animate-tab-content md:w-[55%] md:pl-[10vw]">
                 <img loading="lazy"
-                    className="w-full object-contain aspect-7/5 object-top md:object-top-right"
+                    className="w-full md:px-3 md:py-2 object-contain aspect-7/5 object-top md:object-top-right"
                     src={variant[tab]} />
             </div>
         </article>
