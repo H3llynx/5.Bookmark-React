@@ -12,7 +12,7 @@ export function HomePage() {
         <>
             <Header />
             <HeroSection />
-            <FeatureSection />
+            <FeatureSection id="features" />
             <CardSection />
             <FaqSection />
             <NewsletterSection id="newsletter" />

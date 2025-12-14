@@ -5,7 +5,7 @@ import { TabButton } from "../atoms/TabButton";
 import { FeatureTab } from "../molecules/FeatureTab";
 
 
-export function FeatureSection() {
+export function FeatureSection({ id }: { id?: string }) {
     const [tab, setTab] = useState("tab1");
     const button1 = useRef<HTMLButtonElement>(null);
     const button2 = useRef<HTMLButtonElement>(null);
@@ -32,7 +32,7 @@ export function FeatureSection() {
     }, [tab]);
 
     return (
-        <section className="relative w-full m-auto py-4.5 text-center">
+        <section className="relative w-full m-auto py-4.5 text-center" id={id}>
             <Blob location="features" />
             <SectionHeading color="dark" text="Features" />
             <p className="custom-width m-auto text-center lg:max-w-[40vw]">Our aim is to make it quick and easy for you to access between your devices so you can access them on the go.</p>

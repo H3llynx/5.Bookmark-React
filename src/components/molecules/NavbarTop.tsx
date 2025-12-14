@@ -26,7 +26,7 @@ export function NavbarTop() {
             group-has-checked:w-full
           group-has-checked:text-white
             group-has-checked:my-2">
-                <li><Link text="Features" link="#" /></li>
+                <li><Link text="Features" link="#features" /></li>
                 <li><Link text="Pricing" link="#" /></li>
                 <li><Link text="contact" link="#newsletter" /></li>
                 <li><Button text="Login" color="redNav" /></li>
