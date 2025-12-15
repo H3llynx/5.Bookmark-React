@@ -24,6 +24,7 @@ cd Bookmark-React
  ┣ 📂 src
  |  ┣ 📂 assets
  |  ┣ 📂 components
+ |  ┣ 📂 config
  |  ┣ 📂 pages
  |  ┣ 📂 styles
  |  ┣ 📄 App.tsx
