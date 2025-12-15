@@ -1,9 +1,8 @@
-interface LinkProps {
-  text: string;
-  link: string;
-}
+type LinkProps = {
+  children: React.ReactNode;
+} & React.AnchorHTMLAttributes<HTMLAnchorElement>
 
-export function Link({ text, link }: LinkProps) {
+export function Link(props: LinkProps) {
   return (
     <a className="
         uppercase
@@ -15,7 +14,9 @@ export function Link({ text, link }: LinkProps) {
         group-has-checked:py-1.5
         group-has-checked:border-y-[0.8px]
       group-has-checked:border-border"
-      href={link} tabIndex={0}>{text}
+      {...props} tabIndex={0}>{props.children}
     </a>
   )
 }
+
+// All conponents receive props object as a para
