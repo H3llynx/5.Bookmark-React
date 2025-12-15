@@ -77,6 +77,14 @@
         @apply font-medium border-blue bg-blue text-white hover:text-blue hover:bg-white
     }
 
+    .h2-light {
+        @apply text-white w-[80vw] m-auto md:max-w-[30vw] mt-0.5 mb-2 md:my-[2.3rem]
+    }
+
+    .h2-dark {
+        @apply my-1.5 text-blue-dark
+    }
+
     .my-button {
         transition: 0.4s;
         border-radius: 5px;

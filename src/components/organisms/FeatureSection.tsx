@@ -2,7 +2,6 @@ import { useEffect, useRef, useState } from "react";
 import { tabs } from "../../config/content-config";
 import type { TabContent } from "../../config/types";
 import { Blob } from "../atoms/Blob";
-import { SectionHeading } from "../atoms/SectionHeading";
 import { TabButton } from "../atoms/TabButton";
 import { FeatureTab } from "../molecules/FeatureTab";
 
@@ -35,7 +34,7 @@ export function FeatureSection({ id }: { id?: string }) {
     return (
         <section className="relative w-full m-auto py-4.5 text-center" id={id}>
             <Blob location="features" />
-            <SectionHeading color="dark" text="Features" />
+            <h2 className="h2-dark">Features</h2>
             <p className="custom-width m-auto text-center lg:max-w-[40vw]">Our aim is to make it quick and easy for you to access between your devices so you can access them on the go.</p>
             <div className="flex flex-wrap justify-center w-[80vw] m-auto mt-3 border-separators border-t md:border-none md:w-auto" role="tablist" aria-label="Bookmark features">
                 <TabButton ref={button1} disabled={tab === tabs.tab1} onClick={() => handleTabChange(tabs.tab1)}>{tabs.tab1.label}</TabButton>
