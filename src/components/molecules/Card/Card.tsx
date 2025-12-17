@@ -1,11 +1,6 @@
-import Separator from "../../assets/images/bg-dots.svg"
-import type { CardContent } from "../../config/types"
-import { Button } from "../atoms/Button/Button"
-
-type CardProps = {
-    browser: CardContent,
-    margin?: string
-}
+import Separator from "../../../assets/images/bg-dots.svg"
+import { Button } from "../../atoms/Button/Button"
+import type { CardProps } from "./Cards.types"
 
 export function Card({ browser, margin }: CardProps) {
     return (

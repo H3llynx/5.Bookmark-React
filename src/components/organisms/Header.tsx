@@ -1,5 +1,5 @@
 import Logo from "../../assets/images/logo-bookmark.svg"
-import { NavbarTop } from "../molecules/NavbarTop"
+import { NavbarTop } from "../molecules/NavbarTop/NavbarTop"
 
 export function Header() {
 

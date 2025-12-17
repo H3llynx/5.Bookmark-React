@@ -1,7 +1,7 @@
-import { Button } from "../atoms/Button/Button"
-import { HamburguerLabel } from "../atoms/HamburguerLabel/HamburguerLabel"
-import { Link } from "../atoms/Link/Link"
-import { SocialMedia } from "./SocialMedia"
+import { Button } from "../../atoms/Button/Button"
+import { HamburguerLabel } from "../../atoms/HamburguerLabel/HamburguerLabel"
+import { Link } from "../../atoms/Link/Link"
+import { SocialMedia } from "../SocialMedia/SocialMedia"
 
 export function NavbarTop() {
     return (

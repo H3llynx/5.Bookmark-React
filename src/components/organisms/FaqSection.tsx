@@ -1,5 +1,5 @@
 import { Button } from "../atoms/Button/Button"
-import { FaqBlock } from "../molecules/FaqBlock"
+import { FaqBlock } from "../molecules/FaqBlock/FaqBlock"
 
 export function FaqSection() {
   return (

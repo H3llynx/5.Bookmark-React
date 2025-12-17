@@ -1,5 +1,5 @@
 import { cards } from "../../config/content-config";
-import { Card } from "../molecules/Card";
+import { Card } from "../molecules/Card/Card";
 
 export function CardSection() {
     return (

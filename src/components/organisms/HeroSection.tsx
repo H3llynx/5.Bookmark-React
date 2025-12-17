@@ -1,6 +1,6 @@
 import HeroImg from "../../assets/images/illustration-hero.svg"
 import { Blob } from "../atoms/Blob/Blob"
-import { HeroFloatingText } from "../molecules/HeroFloatingText"
+import { HeroFloatingText } from "../molecules/HeroFloatingText/HeroFloatingText"
 
 export function HeroSection() {
 

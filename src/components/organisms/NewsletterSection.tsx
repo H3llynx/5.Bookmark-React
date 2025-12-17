@@ -1,4 +1,4 @@
-import { Form } from "../molecules/Form"
+import { Form } from "../molecules/Form/Form"
 
 export function NewsletterSection({ id }: { id?: string }) {
 

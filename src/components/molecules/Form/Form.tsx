@@ -1,5 +1,5 @@
-import { Button } from "../atoms/Button/Button";
-import { InputContainer } from "./InputContainer";
+import { Button } from "../../atoms/Button/Button";
+import { InputContainer } from "../InputContainer/InputContainer";
 
 export function Form() {
 

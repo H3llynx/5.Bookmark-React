@@ -1,0 +1,22 @@
+import { tv } from 'tailwind-variants';
+import { FacebookLink } from "../../atoms/social-media/FacebookLink";
+import { TwitterLink } from "../../atoms/social-media/TwitterLink";
+
+const socialMediaVariants = tv({
+    variants: {
+        location: {
+            top: "hidden justify-center text-white gap-2.5 mt-auto mb-O group-has-checked:flex",
+            bottom: "flex gap-2.5 mt-1 mx-auto md:m-0"
+        }
+    }
+});
+
+
+export function SocialMedia({ location }: { location: "top" | "bottom" }) {
+    return (
+        <div className={socialMediaVariants.variants.location[location]}>
+            <FacebookLink link="#" />
+            <TwitterLink link="#" />
+        </div>
+    )
+}

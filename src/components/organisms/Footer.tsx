@@ -1,7 +1,7 @@
 
 import LogoFooter from "../../assets/images/logo-footer.svg"
-import { NavbarBottom } from "../molecules/NavbarBottom"
-import { SocialMedia } from "../molecules/SocialMedia"
+import { NavbarBottom } from "../molecules/NavbarBottom/NavbarBottom"
+import { SocialMedia } from "../molecules/SocialMedia/SocialMedia"
 
 export function Footer() {
 

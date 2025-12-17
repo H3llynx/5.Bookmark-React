@@ -1,6 +1,6 @@
 
-import type { TabContent } from "../../config/types"
-import { Button } from "../atoms/Button/Button"
+import { Button } from "../../atoms/Button/Button"
+import type { TabContent } from "./FeatureTab.types"
 
 export function FeatureTab(tab: TabContent) {
 
