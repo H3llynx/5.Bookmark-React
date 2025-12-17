@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import { tabs } from "../../config/content-config";
-import type { TabContent } from "../../config/types";
 import { Blob } from "../atoms/Blob/Blob";
 import { TabButton } from "../atoms/TabButton/TabButton";
-import { FeatureTab } from "../molecules/FeatureTab";
+import { FeatureTab } from "../molecules/FeatureTab/FeatureTab";
+import type { TabContent } from "../molecules/FeatureTab/FeatureTab.types";
 
 export function FeatureSection({ id }: { id?: string }) {
     const [tab, setTab] = useState(tabs.tab1);
