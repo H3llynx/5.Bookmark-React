@@ -1,6 +1,6 @@
-import CloseIcon from "../../assets/images/icon-close.svg"
-import HamburgerIcon from "../../assets/images/icon-hamburger.svg"
-import LogoMenu from "../../assets/images/logo-bookmark-menu.svg"
+import CloseIcon from "../../../assets/images/icon-close.svg"
+import HamburgerIcon from "../../../assets/images/icon-hamburger.svg"
+import LogoMenu from "../../../assets/images/logo-bookmark-menu.svg"
 
 export function HamburguerLabel() {
 
