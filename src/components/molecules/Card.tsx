@@ -1,6 +1,6 @@
 import Separator from "../../assets/images/bg-dots.svg"
 import type { CardContent } from "../../config/types"
-import { Button } from "../atoms/Button"
+import { Button } from "../atoms/Button/Button"
 
 type CardProps = {
     browser: CardContent,

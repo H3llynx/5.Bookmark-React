@@ -1,4 +1,4 @@
-import type { FaqContent } from "../../config/types"
+import type { FaqContent } from "./Details.types"
 
 export function Details(faq: FaqContent) {
 

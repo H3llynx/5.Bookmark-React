@@ -1,5 +1,5 @@
 import HeroImg from "../../assets/images/illustration-hero.svg"
-import { Blob } from "../atoms/Blob"
+import { Blob } from "../atoms/Blob/Blob"
 import { HeroFloatingText } from "../molecules/HeroFloatingText"
 
 export function HeroSection() {

@@ -1,4 +1,4 @@
-import { Button } from "../atoms/Button"
+import { Button } from "../atoms/Button/Button"
 import { FaqBlock } from "../molecules/FaqBlock"
 
 export function FaqSection() {

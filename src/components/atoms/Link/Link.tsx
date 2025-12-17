@@ -1,6 +1,4 @@
-type LinkProps = {
-  children: React.ReactNode;
-} & React.AnchorHTMLAttributes<HTMLAnchorElement>
+import type { LinkProps } from "./Link.types"
 
 export function Link(props: LinkProps) {
   return (
@@ -18,5 +16,3 @@ export function Link(props: LinkProps) {
     </a>
   )
 }
-
-// All conponents receive props object as a para

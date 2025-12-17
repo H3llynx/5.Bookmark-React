@@ -1,8 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { tabs } from "../../config/content-config";
 import type { TabContent } from "../../config/types";
-import { Blob } from "../atoms/Blob";
-import { TabButton } from "../atoms/TabButton";
+import { Blob } from "../atoms/Blob/Blob";
+import { TabButton } from "../atoms/TabButton/TabButton";
 import { FeatureTab } from "../molecules/FeatureTab";
 
 export function FeatureSection({ id }: { id?: string }) {

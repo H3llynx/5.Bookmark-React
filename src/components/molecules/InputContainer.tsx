@@ -1,5 +1,5 @@
 import ErrorIcon from "../../assets/images/icon-error.svg"
-import { TextInput } from "../atoms/TextInput"
+import { TextInput } from "../atoms/TextInput/TextInput"
 
 export function InputContainer() {
 

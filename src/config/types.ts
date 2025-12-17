@@ -11,7 +11,3 @@ export type CardContent = {
     img: string
 }
 
-export type FaqContent = {
-    summary: string;
-    text: string;
-}

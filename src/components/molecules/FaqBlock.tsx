@@ -1,5 +1,5 @@
 import { faq } from "../../config/content-config"
-import { Details } from "../atoms/Details"
+import { Details } from "../atoms/Details/Details"
 
 export function FaqBlock() {
   return (

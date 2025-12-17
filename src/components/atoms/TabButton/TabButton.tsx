@@ -1,10 +1,6 @@
-import type { Ref } from 'react';
 import { forwardRef } from 'react';
+import type { TabButtonProps } from './TabButton.types';
 
-type TabButtonProps = {
-    children: React.ReactNode;
-    ref: Ref<HTMLButtonElement>;
-} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export const TabButton = forwardRef<HTMLButtonElement, TabButtonProps>(
     function TabButton({ children, ...props }, ref) {
