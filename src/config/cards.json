@@ -3,18 +3,18 @@
     {
         "title": "Add to Chrome",
         "version": "Minimum version 62",
-        "img": "5.Bookmark-React/extensions/logo-chrome.svg"
+        "img": "/5.Bookmark-React/extensions/logo-chrome.svg"
     },
     "firefox":
     {
         "title": "Add to Firefox",
         "version": "Minimum version 55",
-        "img": "5.Bookmark-React/extensions/logo-firefox.svg"
+        "img": "/5.Bookmark-React/extensions/logo-firefox.svg"
     },
     "opera":
     {
         "title": "Add to Opera",
         "version": "Minimum version 46",
-        "img": "5.Bookmark-React/extensions/logo-opera.svg"
+        "img": "/5.Bookmark-React/extensions/logo-opera.svg"
     }
 }
