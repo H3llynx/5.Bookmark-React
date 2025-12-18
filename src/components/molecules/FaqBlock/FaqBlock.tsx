@@ -1,5 +1,12 @@
-import { faq } from "../../../config/content-config"
+import FaqContent from "../../../config/faq.json"
 import { Details } from "../../atoms/Details/Details"
+
+const faq = {
+  detail1: { ...FaqContent.detail1 },
+  detail2: { ...FaqContent.detail2 },
+  detail3: { ...FaqContent.detail3 },
+  detail4: { ...FaqContent.detail4 }
+}
 
 export function FaqBlock() {
   return (

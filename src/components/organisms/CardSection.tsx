@@ -1,5 +1,11 @@
-import { cards } from "../../config/content-config";
+import CardContent from "../../config/cards.json";
 import { Card } from "../molecules/Card/Card";
+
+const cards = {
+    chrome: { ...CardContent.chrome },
+    firefox: { ...CardContent.firefox },
+    opera: { ...CardContent.opera }
+}
 
 export function CardSection() {
     return (
