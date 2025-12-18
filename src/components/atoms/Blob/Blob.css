@@ -1,0 +1,7 @@
+@reference "../../../styles/styles.css";
+
+@layer components {
+    .blob {
+        @apply absolute z-[-1] bg-blue w-[82%] aspect-16/10;
+    }
+}

@@ -1,5 +1,6 @@
 import Separator from "../../../assets/images/bg-dots.svg"
 import { Button } from "../../atoms/Button/Button"
+import "./Card.css"
 import type { CardProps } from "./Cards.types"
 
 export function Card({ browser, margin }: CardProps) {
