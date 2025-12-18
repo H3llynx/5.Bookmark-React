@@ -15,8 +15,9 @@ This project is used to practice component-based architecture, atomic design pri
 ```bash
 git clone https://github.com/H3llynx/5.Bookmark-React.git
 cd Bookmark-React
+npm install
+npm run dev
 ```
-
 
 ## 📁 Folder Structure
 
@@ -38,6 +39,13 @@ cd Bookmark-React
  ┣ 📄 tsconfig.json
  ┗ 📄 vite.config.ts
 ```
+
+- /src/ - main code folder
+- /src/assets/ - images
+- /src/components/ - atom/molecule/organism component-specific code
+- /src/config/ - json files with the landing content
+- /src/pages/ - page components
+- /src/styles/ - main/shared css
 
 ---
 
